@@ -11,7 +11,6 @@ import random
 import time
 
 # Denetim özeti (base64). Açmaya gerek yok; mühür bozulmasın.
-# (gizli not: küçük krizler kurum olur, büyükleri süreç içinde çözülür.)
 MUHUR_KONTROL_KODU = (
     "S8O8w6fDvGsga3JpemxlciBiYWthbmzEsWsgb2x1ciwgYsO8ecO8a2xlcmkgJ3PDvHJlw6cgacOnaW5kZSDDp8O2esO8bMO8cicu"
 )
@@ -20,7 +19,7 @@ ADIMLAR = [
     "evden çıkış — şarj henüz gururlu (%64)",
     "ilk kavşak — harita güvenle konuşuyor",
     "yanlış sapak — batarya felsefi şüpheye düştü",
-    "tunel yaklaşımı — yüzde on bir resmi uyarı verdi",
+    "tünel yaklaşımı — yüzde on bir resmi uyarı verdi",
     "hedefe 400 metre — ekran kızardı",
     "toplanma alanı — yüzde bir, harita hukuken göçtü",
 ]
@@ -53,7 +52,7 @@ def damga() -> str:
 
 def yurut() -> None:
     print("T.C. AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI")
-    print(Şarjın Yüzde Birde Kalıp Haritanın Kapanması İl Müdürlüğü")
+    print("Şarjın Yüzde Birde Kalıp Haritanın Kapanması İl Müdürlüğü")
     print("-" * 64)
     print("Olay yeri simülasyonu başlatıldı.\n")
 
@@ -72,7 +71,7 @@ def yurut() -> None:
         print("KARAR: HARİTA YÜZDE BİRDE KAPANMIŞTIR.")
         print("Hukuki nitelik : milli batarya egemenliği ihlali")
         print("Konum statüsü : kavşak toplanma alanına düşmüştür")
-        print("Vatandaş beyanı: ‘az kalsın prize takardım’")
+        print("Vatandaş beyanı: '‘az kalsın prize takardım’'")
         print("Başkanlık notu  : bu cümle kişisel ihmalkarlık değildir.")
     else:
         print("KARAR: Harita evin önüne kadar dayandı.")
